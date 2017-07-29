@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="205">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="tileset.png" width="128" height="128"/>
+ </tileset>
+ <layer name="tiles" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAADg3wAnEAAB
+  </data>
+ </layer>
+ <layer name="Слой тайлов 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAADg3wAnEAAB
+  </data>
+ </layer>
+ <layer name="solidtiles" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEKwCAMANHY//9o91JqUIin3HBLwMAbYouIZrieQ9PBSgerCkf2T1n5j6ocs7OvuY69juxbHbk7fM9GtzravctRkY67HJR0sNLBSsf/Ph06dOjQoeOEdLDSwUoHKx2sdLDSwUoHKx2sbnUYow7YkhGx
+  </data>
+ </layer>
+ <objectgroup name="solid">
+  <object id="176" x="0" y="0" width="1600" height="64"/>
+  <object id="177" x="0" y="64" width="64" height="1536"/>
+  <object id="178" x="1536" y="64" width="64" height="1536"/>
+  <object id="181" x="64" y="1536" width="1472" height="64"/>
+  <object id="182" x="448" y="384" width="192" height="128"/>
+  <object id="183" x="576" y="704" width="64" height="256"/>
+  <object id="184" x="1056" y="224" width="352" height="32"/>
+  <object id="186" x="1056" y="256" width="32" height="160"/>
+  <object id="187" x="1376" y="256" width="32" height="160"/>
+  <object id="188" x="1184" y="384" width="192" height="32"/>
+  <object id="190" x="1088" y="384" width="32" height="32"/>
+  <object id="191" x="1248" y="256" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup color="#c89696" name="markers0">
+  <object id="193" name="4" x="416" y="1056" width="32" height="32"/>
+  <object id="196" name="1" x="416" y="608" width="32" height="32"/>
+  <object id="198" name="2" x="768" y="608" width="32" height="32"/>
+  <object id="199" name="3" x="768" y="1056" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="markers1"/>
+</map>
